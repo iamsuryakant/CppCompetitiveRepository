@@ -54,8 +54,8 @@ void file_i_o()
     #endif
 }
 std::vector<std::vector<ll> > graph;
-std::vector<ll> a;
-std::vector<ll> b;
+std::vector<ll> a; // p
+std::vector<ll> b; // q
 void addEdge(int u, int v) {
     graph[u].pb(v);
     graph[v].pb(u);
